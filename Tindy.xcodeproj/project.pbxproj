@@ -14,6 +14,8 @@
 		76F7DC691E95DA0500D8363A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F7DC671E95DA0500D8363A /* LaunchScreen.storyboard */; };
 		76F7DC741E95DA0500D8363A /* TindyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F7DC731E95DA0500D8363A /* TindyTests.swift */; };
 		76F7DC7F1E95DA0500D8363A /* TindyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F7DC7E1E95DA0500D8363A /* TindyUITests.swift */; };
+		76F7DC8D1E95DA7200D8363A /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F7DC8C1E95DA7200D8363A /* CardsViewController.swift */; };
+		76F7DC8F1E961AA400D8363A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F7DC8E1E961AA400D8363A /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		76F7DC7A1E95DA0500D8363A /* TindyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TindyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F7DC7E1E95DA0500D8363A /* TindyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TindyUITests.swift; sourceTree = "<group>"; };
 		76F7DC801E95DA0500D8363A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F7DC8C1E95DA7200D8363A /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		76F7DC8E1E961AA400D8363A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 			children = (
 				76F7DC5E1E95DA0500D8363A /* AppDelegate.swift */,
 				76F7DC601E95DA0500D8363A /* ViewController.swift */,
+				76F7DC8C1E95DA7200D8363A /* CardsViewController.swift */,
 				76F7DC621E95DA0500D8363A /* Main.storyboard */,
 				76F7DC651E95DA0500D8363A /* Assets.xcassets */,
 				76F7DC671E95DA0500D8363A /* LaunchScreen.storyboard */,
 				76F7DC6A1E95DA0500D8363A /* Info.plist */,
+				76F7DC8E1E961AA400D8363A /* ProfileViewController.swift */,
 			);
 			path = Tindy;
 			sourceTree = "<group>";
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					76F7DC5A1E95DA0500D8363A = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6ZD82QXX95;
 						ProvisioningStyle = Automatic;
 					};
 					76F7DC6E1E95DA0500D8363A = {
@@ -261,6 +268,8 @@
 			files = (
 				76F7DC611E95DA0500D8363A /* ViewController.swift in Sources */,
 				76F7DC5F1E95DA0500D8363A /* AppDelegate.swift in Sources */,
+				76F7DC8F1E961AA400D8363A /* ProfileViewController.swift in Sources */,
+				76F7DC8D1E95DA7200D8363A /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +423,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6ZD82QXX95;
 				INFOPLIST_FILE = Tindy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = svm.Tindy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +437,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6ZD82QXX95;
 				INFOPLIST_FILE = Tindy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = svm.Tindy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
